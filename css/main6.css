@@ -1,0 +1,210 @@
+	*{margin: 0px; padding: 0px;}
+
+			@font-face 
+			{font-family: 'Chronicle'; src:url(../Chronicle_Display_Light.otf);}
+
+			@font-face 
+			{font-family: 'BLEK'; src:url(../Chronicle_Display_Black.otf);}
+
+			@font-face 
+			{font-family: 'Ceno'; src:url(../Gotham-Book.otf);}
+
+
+body { background: url(../img/bg_pattern-2.png)}
+
+
+
+
+
+
+ 			/*   N E F E R T I T I   */
+
+.master {position: relative;}
+
+	.wrapp{ display: block;
+			width: 940px;
+			height: 550px;
+			margin: auto;
+			margin-top: 100px;
+			
+			background: -webkit-linear-gradient(top, #f4f1ea, #f4f1ea);
+			border-radius: 4px;
+			overflow: hidden;
+			box-shadow: 0px 20px 60px #ab6811;
+			position: relative;
+			text-align: center;
+		}
+
+
+	.master1 {display: block;
+				width: 1px;
+				height: 1px;
+				margin: auto;
+				margin-top: 100px; position: relative;}
+
+	.cena {height: 90px; width: 120px; background: #719c42; position: absolute;  left: -490px; top: -600px; box-shadow: 0px 20px 60px #964c0a;}
+
+
+
+
+	.cena:hover {box-shadow: 0px 10px 30px #964c0a; transition: all .3s}
+
+	.cena p { color: #fff; font-family: 'Chronicle'; font-size: 36px; font-weight: 100; padding: 24px 0 0 30px; letter-spacing: 3px; -webkit-transform: skew(0deg);}
+
+
+		.wrapp::before { background: url(../img/food-photography-of-olives2.png) no-repeat; content: ''; width: 686px; height: 819px; 
+						display: block; position: absolute; text-align: center; transform: scale(0.7, 0.7); margin-left: -200px; margin-top: -140px; transition: all .3s}
+
+			
+		.podnaslov {padding-left: 500px; }
+		
+		.podnaslov { clear: both;line-height: 70px; font-size: 54px; letter-spacing: 1px; color: #393939; font-family: 'Chronicle'; padding-top: 60px; font-weight: bolder; text-align: left; }
+
+		.podnaslov2 {color: #719c42; font-size: 24px; text-align: left; font-family: 'Chronicle'; padding-left: 500px; padding-top: 8px;}
+
+		.nazivi p {width: 340px; font-family: 'Chronicle';  float: left; font-size: 16px; text-align: left; font-weight: bolder; color: #393939;
+						 padding-top: 30px; list-style: none; padding-left:  500px; position: absolute; } 
+
+		.nazivi p {line-height: 34px;}
+
+
+		.nazivi p span {font-family: 'BLEK'; } 
+
+
+
+
+		.pozadina2 {width: 100%; height: 440px; background: url(../img/bg_pattern-3.png); bottom: 10px; margin-top: -240px;}
+
+	
+
+
+
+		.boze {display: inline-block;}
+
+		.dugme {clear: both; margin-left: 60px; margin-top: 250px;}
+
+		.dugme a { box-shadow: 0px 14px 40px #ab6811; letter-spacing: 2px; text-align: center; color: #ab7c11; box-sizing: border-box; position: absolute; line-height: 50px;  height: 50px;  padding: 0px 40px 0px 40px;
+					border: 0; background: #fcd16e; text-decoration: none; font-family: 'Ceno'; font-size: 14px; border-radius:  50px 50px; transition: all .3s}
+
+		.dugme a:hover {box-shadow: 0px 10px 30px #719c42; color: #fff; background:#719c42; transition: all .3s}
+
+		  
+
+
+
+
+			 
+
+
+
+
+
+			 			/* TELEFONI */
+
+
+
+@media all and (max-width: 640px) {
+
+
+
+	.wrapp{ display: block;
+			width: 340px;
+			height: 760px;
+			margin: auto;
+			margin-top: 60px;
+			
+			background: -webkit-linear-gradient(top, #f4f1ea, #f4f1ea);
+			border-radius: 4px;
+			overflow: hidden;
+			
+			box-shadow: 0px 5px 20px #ab6811;
+			position: relative;
+			text-align: center;
+		}
+
+	.master1 {display: block;
+			width: 1px;
+			height: 1px;
+			margin: auto;
+			margin-top: 60px;}
+
+.wrapp::before { background: url(../img/food-photography-of-olives2.png) no-repeat; content: ''; width: 686px; height: 819px; 
+						display: block; position: absolute; text-align: center; transform: scale(0.54, 0.54); left: 12px; top: -130px; transition: all .3s}
+
+	.cena {height: 64px; width: 80px; background: #719c42; position: absolute;  left: -186px; top:-766px; box-shadow: 0px 20px 60px #964c0a; transition: all .3s}
+
+	.cena:hover {box-shadow: 0px 10px 30px #964c0a; transition: all .3s}
+
+	.cena p { color: #fff; font-family: 'Chronicle'; font-size: 26px; font-weight: 100; padding: 20px 0 0 18px; letter-spacing: 3px; -webkit-transform: skew(0deg); transition: all .3s}
+
+
+
+
+
+		.podnaslov {padding-left: 0px; text-align: center; transition: all .3s}
+		
+		.podnaslov { clear: both;line-height: 70px; font-size: 38px; letter-spacing: 1px; color: #393939; font-family: 'Chronicle'; padding-top: 376px;
+						font-weight: bolder; text-align: center; }
+
+		.podnaslov2 {color: #719c42; font-size: 20px; text-align: center; font-family: 'Chronicle'; padding-left: 0px; padding-top: 0px; transition: all .3s}
+
+		.nazivi p {width: 270px; font-family: 'Chronicle'; font-size: 16px; text-align: center; font-weight: bolder; color: #393939;
+						 padding-top: 20px; list-style: none; padding-left: 34px; position: absolute; } 
+
+		.nazivi p {line-height: 30px; transition: all .3s}
+
+
+		.nazivi p span {font-family: 'BLEK'; } 
+		
+
+
+
+
+
+
+		.pozadina2 {width: 100%; height: 440px; background: url(../img/bg_pattern-3.png); top: 500px; margin-top: -120px;}
+
+
+        .dugme {clear: both; margin-left: -150px; margin-top: 210px;  transition: all .3s}
+
+		.dugme a {letter-spacing: 2px; text-align: center; color: #ab7c11; box-sizing: border-box; position: absolute; line-height: 50px;  height: 50px;  padding: 0px 40px 0px 40px;
+					border: 0; background: #fcd16e; text-decoration: none; font-family: 'Ceno'; font-size: 14px; border-radius:  50px 50px; transition: all .3s}
+
+		
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
