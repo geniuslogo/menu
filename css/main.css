@@ -106,12 +106,12 @@ body { background: url(../img/bg_pattern-2.png)}
 @media all and (max-width: 640px) {
 
 
-
+.master {height: 700px;}
 	.wrapp{ display: block;
 			width: 340px;
-			height: 760px;
+			height: 90%;
 			margin: auto;
-			margin-top: 60px;
+			margin-top: 30px;
 			
 			background: -webkit-linear-gradient(top, #f4f1ea, #f4f1ea);
 			border-radius: 4px;
@@ -129,7 +129,7 @@ body { background: url(../img/bg_pattern-2.png)}
 			margin-top: 60px;}
 
 .wrapp::before { background: url(../img/food-photography-of-olives2.png) no-repeat; content: ''; width: 686px; height: 819px; 
-						display: block; position: absolute; text-align: center; transform: scale(0.54, 0.54); left: 12px; top: -130px; transition: all .3s}
+						display: block; position: absolute; text-align: center; transform: scale(0.54, 0.54); left: 12px; top: -190px; transition: all .3s}
 
 	.cena {height: 64px; width: 80px; background: #719c42; position: absolute;  left: -156px; top:-806px; box-shadow: 0px 20px 60px #964c0a; transition: all .3s}
 
@@ -141,15 +141,15 @@ body { background: url(../img/bg_pattern-2.png)}
 
 
 
-		.podnaslov {padding-left: 0px; text-align: center; transition: all .3s}
+		.podnaslov {padding-left: 0px; text-align: center; transition: all .3s; }
 		
-		.podnaslov { clear: both;line-height: 70px; font-size: 38px; letter-spacing: 1px; color: #393939; font-family: 'Chronicle'; padding-top: 376px;
+		.podnaslov { clear: both;line-height: 70px; font-size: 38px; letter-spacing: 1px; color: #393939; font-family: 'Chronicle'; padding-top: 310px;
 						font-weight: bolder; text-align: center; }
 
-		.podnaslov2 {color: #719c42; font-size: 20px; text-align: center; font-family: 'Chronicle'; padding-left: 0px; padding-top: 0px; transition: all .3s}
+		.podnaslov2 {color: #719c42; font-size: 18px; text-align: center; font-family: 'Chronicle'; padding-left: 0px; padding-top: 0px; transition: all .3s}
 
-		.nazivi p {width: 270px; font-family: 'Chronicle'; font-size: 16px; text-align: center; font-weight: bolder; color: #393939;
-						 padding-top: 20px; list-style: none; padding-left: 34px; position: absolute; } 
+		.nazivi p {width: 270px; font-family: 'Chronicle'; font-size: 14px; text-align: center; font-weight: bolder; color: #393939;
+						 padding-top: 13px; list-style: none; padding-left: 34px; position: absolute; } 
 
 		.nazivi p {line-height: 30px; transition: all .3s}
 
@@ -162,15 +162,16 @@ body { background: url(../img/bg_pattern-2.png)}
 
 
 
-		.pozadina2 {width: 100%; height: 440px; background: url(../img/bg_pattern-3.png); top: 500px;}
+		.pozadina2 {width: 100%; height: 440px; background: url(../img/bg_pattern-3.png); top: 20%;}
 
 
-        .dugme {clear: both; margin-left: -150px; margin-top: 210px;  transition: all .3s}
+        .dugme {clear: both; margin-left: -134px; margin-top: 160px;  transition: all .3s}
 
-		.dugme a {letter-spacing: 2px; text-align: center; color: #ab7c11; box-sizing: border-box; position: absolute; line-height: 50px;  height: 50px;  padding: 0px 40px 0px 40px;
-					border: 0; background: #fcd16e; text-decoration: none; font-family: 'Ceno'; font-size: 14px; border-radius:  50px 50px; transition: all .3s}
+		.dugme a {letter-spacing: 2px; text-align: center; color: #ab7c11; box-sizing: border-box; position: absolute; line-height: 36px;  height: 36px;  padding: 0px 30px 0px 30px;
+					border: 0; background: #fcd16e; text-decoration: none; font-family: 'Ceno'; font-size: 12px; border-radius:  50px 50px; transition: all .3s}
 
 		
+
 
 
 
