@@ -131,7 +131,7 @@ body { background: url(../img/bg_pattern-2.png)}
 .wrapp::before { background: url(../img/food-photography-of-olives2.png) no-repeat; content: ''; width: 686px; height: 819px; 
 						display: block; position: absolute; text-align: center; transform: scale(0.54, 0.54); left: 12px; top: -190px; transition: all .3s}
 
-	.cena {height: 64px; width: 80px; background: #719c42; position: absolute;  left: -156px; top:-806px; box-shadow: 0px 20px 60px #964c0a; transition: all .3s}
+	.cena {height: 64px; width: 80px; background: #719c42; position: absolute;  left: -155px; top:-676px; box-shadow: 0px 20px 60px #964c0a; transition: all .3s}
 
 	.cena:hover {box-shadow: 0px 10px 30px #964c0a; transition: all .3s}
 
@@ -165,7 +165,7 @@ body { background: url(../img/bg_pattern-2.png)}
 		.pozadina2 {width: 100%; height: 440px; background: url(../img/bg_pattern-3.png); top: 20%;}
 
 
-        .dugme {clear: both; margin-left: -134px; margin-top: 160px;  transition: all .3s}
+        .dugme {clear: both; margin-left: -134px; margin-top: 174px;  transition: all .3s}
 
 		.dugme a {letter-spacing: 2px; text-align: center; color: #ab7c11; box-sizing: border-box; position: absolute; line-height: 36px;  height: 36px;  padding: 0px 30px 0px 30px;
 					border: 0; background: #fcd16e; text-decoration: none; font-family: 'Ceno'; font-size: 12px; border-radius:  50px 50px; transition: all .3s}
